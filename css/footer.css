@@ -1,0 +1,15 @@
+/*Import font*/
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #e9e8e8;
+    text-align: center;
+    color: #038C4C;
+    margin-top: 5px;
+}
