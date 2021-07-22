@@ -37,7 +37,7 @@
 }
 
 .banner-text p {
-    background-color: rgba(20, 20, 20, 0.356);
+    background-color: rgba(20, 20, 20, 0.692);
     border-radius: 5%;
 }
 
@@ -54,10 +54,6 @@
     color: white;
     margin: 2vw 3vw;
 }
-
-
-
-
 
 /*Responsive design*/
 @media only screen and (max-width: 768px) {
@@ -79,8 +75,8 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 579px) {
     .banner {
-        background-size: 270%;
+        background-size: 470%;
     }
 }
