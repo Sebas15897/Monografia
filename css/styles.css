@@ -1,0 +1,86 @@
+/*Important source*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*the banner defines the hero image and its content*/
+.banner {
+    background-image: url(/Sebas15897.github.io/img/banner.png); /*Importing image*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    opacity: 3ms;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    filter: grayscale(40%);
+}
+
+.banner a {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/*Parent container, contains most elements*/
+.banner-text {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.banner-text p {
+    background-color: rgba(20, 20, 20, 0.356);
+    border-radius: 5%;
+}
+
+/*image positioning*/
+.banner-text img{
+    border-radius: 5%;
+    height: 15vw;
+    width: auto;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+.items {
+    color: white;
+    margin: 2vw 3vw;
+}
+
+
+
+
+
+/*Responsive design*/
+@media only screen and (max-width: 768px) {
+    .banner-text {
+    text-align: center;
+    margin-left: 20%;
+    }
+
+    .apoyo {
+        visibility: hidden;
+    }
+    /*Increasing image height*/
+    .banner-text img {
+        height: 25vw;
+    }
+
+    .banner {
+        background-size: 180%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .banner {
+        background-size: 270%;
+    }
+}

@@ -10,6 +10,15 @@
 footer {
     background-color: #e9e8e8;
     text-align: center;
-    color: #038C4C;
+    color: gray;
     margin-top: 5px;
+}
+
+footer a {
+    color: gray;
+}
+
+footer p {
+    color: black;
+    font-size: 18px;
 }
